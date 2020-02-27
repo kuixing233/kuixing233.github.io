@@ -4,7 +4,7 @@
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/TEP.ico");
-         document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
+         document.title = '╭(°A°`)╮ 页面崩溃了 ~';
          clearTimeout(titleTime);
      }
      else {
